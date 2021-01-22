@@ -40,4 +40,5 @@ go_register_toolchains(version = "1.15.5")
 
 gazelle_dependencies()
 
+### END of GOLANG rules
 
