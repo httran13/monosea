@@ -1,0 +1,17 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
+
+go_library(
+    name = "gomoda_lib",
+    srcs = ["hello.go"],
+    importpath = "github.com/httran13/gomoda",
+    visibility = ["//visibility:private"],
+    deps = [
+        "//go_proj/github.com/httran13/gomodbpackage:go_default_library"
+    ],
+)
+
+go_binary(
+    name = "gomoda",
+    embed = [":gomoda_lib"],
+    visibility = ["//visibility:public"],
+)

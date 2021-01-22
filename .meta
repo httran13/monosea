@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "go_proj/github.com/httran13/gomodbpackage": "git@github.com:httran13/gomodbpackage.git"
+  }
+}

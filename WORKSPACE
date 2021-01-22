@@ -1,3 +1,5 @@
+workspace(name = "monosea")
+
 ## c++ deps for windows machine : refer to https://github.com/bazelbuild/rules_go/blob/master/windows.rst
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
