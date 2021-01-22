@@ -1,0 +1,7 @@
+### Build file for gazelle to build go packages
+
+load("@bazel_gazelle//:def.bzl", "gazelle")
+
+# gazelle:prefix github.com/httran13/monosea
+gazelle(name = "gazelle")
+
